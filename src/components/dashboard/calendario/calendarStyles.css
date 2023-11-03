@@ -1,0 +1,50 @@
+.expandedEvent{
+  height: auto !important;
+  transition: height 8s ease !important;
+}
+
+.eventPred {
+  border-radius: 10px;
+  overflow: auto; 
+}
+
+.fc-event {
+  border-radius: 10px;
+}
+
+.calendar {
+  border-radius: 10px;
+  text-transform: capitalize;
+}
+
+.fc-daygrid-day.fc-day-today {
+  /* border-radius: 50px; */
+}
+
+:root {
+  --fc-today-bg-color:rgb(219, 234, 254) ;
+  /* Establece el color de fondo del día actual */
+  /* --fc-border-color: none; */
+}
+.fc-day {
+  /* border-radius: 10%; */
+}
+/* .fc-daygrid-day.fc-day-today .fc-daygrid-day-number {
+    color: white; 
+    background-color: rgb(137, 194, 227);
+    border-radius: 50%;
+    height: 100%;
+    padding-left: 19.38px;
+  } */
+
+
+.fc-highlight {
+  background-color: rgb(219, 234, 254) !important;
+}
+
+
+@media (max-width: 640px) {
+  .fc-view {
+    font-size: 10px !important;
+  }
+}

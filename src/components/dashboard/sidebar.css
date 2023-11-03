@@ -1,0 +1,14 @@
+/* Sidebar.css */
+
+/* Establece el contenedor principal como una cuadrícula */
+ 
+
+/* Establece los estilos para la barra lateral */
+.side-container {
+  background-color: #fdfdfd; /*BLANCO*/
+  color: rgb(0, 0, 0); /* Texto blanco */
+  transition: width 0.3s, background-color 0.3s;
+  overflow: hidden;
+  z-index: 4;
+  border-right:1px solid #ACACAC;
+}
